@@ -13,6 +13,7 @@ async function generateJoke() {
       const response = await fetch(url,setHeader);
       const responseData = await response.json();
       const jokeLine = document.querySelector('.jokeLine');
+      jokeLine.innerHTML='';
       jokeLine.insertAdjacentHTML('afterbegin', responseData.joke);
    } catch (error) {
       console.log(`error is ${error}`);

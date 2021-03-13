@@ -1,0 +1,10 @@
+@keyframes body-active{
+    from{
+        opacity: 0;
+        transform: translateY(80px);
+    }
+    to{
+        opacity: 1;
+        transform:tranlateY(0px)
+    }
+}

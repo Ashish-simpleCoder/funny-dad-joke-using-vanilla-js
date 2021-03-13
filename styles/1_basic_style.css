@@ -1,0 +1,26 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border: none;
+   outline: none;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   font-family: sans-serif;
+   background: #020509;
+   /* background: linear-gradient(120deg, rgb(84, 108, 128) 0%, rgb(5, 153, 37)); */
+   color: rgb(235, 235, 235);
+}
+main{
+    width: 80%;
+    margin:0 auto;
+    /* border: 1px solid red; */
+}
+:root{
+    --fontColor:rgb(235,235,235);
+}

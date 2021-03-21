@@ -20,3 +20,4 @@ async function generateJoke() {
    }
 }
 generateJoke();
+console('hi ');
